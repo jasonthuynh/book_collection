@@ -16,6 +16,21 @@
     <%= form.text_field :title %>
   </div>
 
+  <div class="field">
+    <%= form.label :author %>
+    <%= form.text_field :author %>
+  </div>
+
+  <div class="field">
+    <%= form.label :price %>
+    <%= form.number_field :price, step: 0.01 %>
+  </div>
+
+  <div class="field">
+    <%= form.label :publish_date %>
+    <%= form.date_select :publish_date, include_blank: true %>
+  </div>
+
   <div class="actions">
     <%= form.submit %>
   </div>
