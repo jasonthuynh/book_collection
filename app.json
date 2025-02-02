@@ -1,3 +1,19 @@
+
+
 {
-    "stack" : "heroku-20"
-}
+
+    "stack" : "heroku-20",
+
+    "name": "Review App",
+    "description": "Temporary review app",
+    "scripts": {
+      "postdeploy": "echo 'Postdeploy script executed'"
+    },
+    "env": {
+      "NODE_ENV": {
+        "description": "Set the environment",
+        "value": "production"
+      }
+    }
+  }
+  
