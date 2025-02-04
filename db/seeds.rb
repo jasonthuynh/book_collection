@@ -1,7 +1,6 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+books = Book.create([
+  { title: 'The Great Gatsby', author: 'F. Scott Fitzgerald', price: 10.99, publish_date: '1925-04-10' },
+  { title: '1984', author: 'George Orwell', price: 8.99, publish_date: '1949-06-08' },
+  { title: 'To Kill a Mockingbird', author: 'Harper Lee', price: 7.99, publish_date: '1960-07-11' },
+  { title: 'Pride and Prejudice', author: 'Jane Austen', price: 6.99, publish_date: '1813-01-28' }
+])
